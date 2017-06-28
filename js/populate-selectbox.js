@@ -33,7 +33,7 @@
 
   // Returns the object for cameras or projectors, which are the models that will show in the second select box
   function getModels(equipmentType) {
-    if (equipmentType ==='camera') {
+    if (equipmentType ==='cameras') {
       return cameras;
     } else if (equipmentType === 'projectors') {
       return projectors;
